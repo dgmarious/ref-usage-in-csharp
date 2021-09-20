@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace ConsoleApp102.IOC
 
-#region Do NOT USE THIS IN YOUR PROLECT. USE STRUCTUREMAP OR OTHER 
+#region Do NOT USE THIS IN YOUR PROJECT. USE STRUCTUREMAP OR OTHER 
 
 //This is a makeshift dependency injection used for the purpose of this demo.
 //Use any other mature Dependency Injection tool like structuremap instead.
