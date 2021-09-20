@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace ConsoleApp102
+namespace ConsoleApp102.Utils
 {
-     class ConsoleLogger : Logger
+     class ConsoleLogger : Logger, ILogger
     { 
         
-       public override void Log(object info, [CallerMemberName] string caller = "")
+       public  void Log(object info, [CallerMemberName] string caller = "")
         {
             
                 base.Enqueue($"{ caller}: >> { DateTime.Now} | { info}");

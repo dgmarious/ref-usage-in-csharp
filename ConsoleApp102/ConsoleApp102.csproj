@@ -44,20 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="ConsoleLogger.cs" />
-    <Compile Include="Consumer.cs" />
-    <Compile Include="Container.cs" />
+    <Compile Include="Ilogger.cs" />
+    <Compile Include="Utils\ConsoleLogger.cs" />
+    <Compile Include="Services\Consumer.cs" />
+    <Compile Include="IOC\Container.cs" />
     <Compile Include="IConsumer.cs" />
     <Compile Include="IlogService.cs" />
-    <Compile Include="Logger.cs" />
+    <Compile Include="Utils\Logger.cs" />
     <Compile Include="IProducer.cs" />
-    <Compile Include="LogService.cs" />
-    <Compile Include="Producer.cs" />
+    <Compile Include="Services\LogService.cs" />
+    <Compile Include="Services\Producer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

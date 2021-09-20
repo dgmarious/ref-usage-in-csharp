@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace ConsoleApp102
+namespace ConsoleApp102.IOC
 
 #region Do NOT USE THIS IN YOUR PROLECT. USE STRUCTUREMAP OR OTHER 
 

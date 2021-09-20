@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Threading.Tasks;
+using ConsoleApp102.Utils;
 
-namespace ConsoleApp102
+namespace ConsoleApp102.Services
 {
-    public class LogService :  Logger, ILogService
+    public  class LogService :  Logger, ILogService
     {
 
 

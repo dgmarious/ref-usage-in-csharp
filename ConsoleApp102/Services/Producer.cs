@@ -1,13 +1,14 @@
 ﻿using System.Collections.Concurrent;
+using ConsoleApp102.Utils;
 
-namespace ConsoleApp102
+namespace ConsoleApp102.Services
 {
     class Producer: IProducer
 
     {
-        private readonly Logger _logger;
+        private readonly ILogger _logger;
 
-        public Producer(Logger logger)
+        public Producer(ILogger logger)
         {
             _logger = logger;
         }

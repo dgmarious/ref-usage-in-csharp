@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Concurrent;
+﻿using System.Collections.Concurrent;
 using System.Threading.Tasks;
+using ConsoleApp102.Utils;
 
-namespace ConsoleApp102
+namespace ConsoleApp102.Services
 {
     class Consumer :IConsumer
     {
-        private readonly Logger _logger;
+        private readonly ILogger _logger;
 
-        public Consumer(Logger loger)
+        public Consumer(ILogger loger)
         {
             _logger = loger;
         }

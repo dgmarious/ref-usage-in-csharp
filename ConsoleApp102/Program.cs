@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp102
+﻿using ConsoleApp102.IOC;
+
+namespace ConsoleApp102
 {
     class Program
     {
